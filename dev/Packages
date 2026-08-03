@@ -9,12 +9,12 @@ Replaces: me.conorthedev.dotto+
 Conflicts: me.conorthedev.dotto+
 Architecture: iphoneos-arm64
 Version: 1.1.1
-Installed-Size: 1084
+Installed-Size: 1088
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 139930
-MD5sum: 93299a3b6293f50770ea33b747db12a3
-SHA1: 229783cc647f8f5219b421aab68654459e487ba8
-SHA256: cc1358d85e4a50e414572aa6ba74a9c82363b48c3f983d6592f57c341655bf1e
+Size: 140716
+MD5sum: 65607af5ad3dcff93bc3a8df48900bd1
+SHA1: 51bfe44200424fcd645f5223635cb355a68d4f5a
+SHA256: 334e3926dc22888a60bf3fb72c509b3cc149a3116c033f0e93b378240bb319a3
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
@@ -29,7 +29,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.1
 Installed-Size: 1036
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 137584
-MD5sum: 7c95a9647dfaf7687b11ffe084f7a2b9
-SHA1: f724d5258d3d75fa0e0d6823113a12d69e37c239
-SHA256: 2ecad0d46d9d4ab6ad01a6e236597c8d35d76a0a279958a42be8d0b084ac3ca4
+Size: 138056
+MD5sum: 532b37c51d12533aaa1051834b524cc2
+SHA1: 7dbbbcd35912d63c928927e8814c45215bb539a2
+SHA256: 415ca56383917bf1a82aa65181b754fef1cbc654735f73005d417a9c293d9158
