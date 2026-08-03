@@ -8,13 +8,13 @@ Depends: firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
 Conflicts: me.conorthedev.dotto+
 Architecture: iphoneos-arm64
-Version: 1.0.10
+Version: 1.0.11
 Installed-Size: 916
-Filename: debs/com.nicksworks.dottoplusplus_1.0.10_iphoneos-arm64.deb
-Size: 121682
-MD5sum: 96eea89f0b3e522cafcb6456afdd864a
-SHA1: 94e2636e47cea101048b6d4b176a490444470f3c
-SHA256: d298a0ebd63900dfc98beb5ada826cddcf353703bf8fc09009ff4495edfb14ba
+Filename: debs/com.nicksworks.dottoplusplus_1.0.11_iphoneos-arm64.deb
+Size: 121842
+MD5sum: 03c1dc9836f518ec6f865d31099b551d
+SHA1: c5e1eafb88558fc037095fddca3fc46f77182bf4
+SHA256: c8522c876f393215185b08e9c76ad30eb44c46508e23a30537845a7edc096d41
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
@@ -26,10 +26,10 @@ Depends: firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
 Conflicts: me.conorthedev.dotto+
 Architecture: iphoneos-arm64e
-Version: 1.0.10
+Version: 1.0.11
 Installed-Size: 916
-Filename: debs/com.nicksworks.dottoplusplus_1.0.10_iphoneos-arm64e.deb
-Size: 119384
-MD5sum: 0dd71ad91fda768aace290a775874997
-SHA1: cd9b3a27371f2380866d16fd00c36e32d974e53f
-SHA256: 7fdc189e88fb15b7d4ce3ec91ed90d497e1ed135de3f430655a225e716d43e09
+Filename: debs/com.nicksworks.dottoplusplus_1.0.11_iphoneos-arm64e.deb
+Size: 119364
+MD5sum: f9a3843f7539b0288ab239c4b4216760
+SHA1: 6b131f1b1197c1716f9414e77ffd2345396147db
+SHA256: 75ce42e918789cca6b9ae1f3cf7ea71673bfc67ca7b3157f1e31c08d14f05ad8
