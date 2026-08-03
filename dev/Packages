@@ -4,17 +4,17 @@ Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTh
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
 Section: Tweaks
-Depends: firmware (<< 18.0), ellekit, preferenceloader
+Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
 Conflicts: me.conorthedev.dotto+
 Architecture: iphoneos-arm64
-Version: 1.1.0
-Installed-Size: 992
-Filename: debs/com.nicksworks.dottoplusplus_1.1.0_iphoneos-arm64.deb
-Size: 127532
-MD5sum: a7bfbbb2268eb7221f58d66be8bc7315
-SHA1: cdca6b92b7e5591618f3dfa97fc11fc3c44b8db3
-SHA256: 8f9fc172d615fad5a001ee8b738935e2b835da0b8599ee3d0fe1090b6fca50ea
+Version: 1.1.1
+Installed-Size: 984
+Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
+Size: 135118
+MD5sum: 4a5c0d1961bda3f64dbd0e9894b0049b
+SHA1: 0bdb25f266c8670bf1866cb9cdaa9b9182ffbf57
+SHA256: d6e23ee622d3f55d947e8b149bc3cd3c3910a9eab114e1a708ca6b866e2812df
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
@@ -22,14 +22,14 @@ Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTh
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
 Section: Tweaks
-Depends: firmware (<< 18.0), ellekit, preferenceloader
+Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
 Conflicts: me.conorthedev.dotto+
 Architecture: iphoneos-arm64e
-Version: 1.1.0
-Installed-Size: 960
-Filename: debs/com.nicksworks.dottoplusplus_1.1.0_iphoneos-arm64e.deb
-Size: 124538
-MD5sum: 6f3db4d1ca7aa078d10828e695bb76e4
-SHA1: 7f1c6f4ed41a226f6eb1207f0ec702eb16f29c1b
-SHA256: 4a243a27ac4b2fe50b2dfdb7f88916872f13451b5b6b01a81290e6f439235fd0
+Version: 1.1.1
+Installed-Size: 968
+Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
+Size: 131764
+MD5sum: dea084cb89a87bd21e2b6433a543925c
+SHA1: 56413d07629959659e5ce91e174fe4f7d9d12c82
+SHA256: 3ce1d5a7c162d566971fd668ed1108f8bed66ffa4753de2215eda726add639dd
