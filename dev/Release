@@ -1,0 +1,23 @@
+Origin: Nicks Works
+Label: Nicks Works
+Suite: development
+Version: 1.0
+Codename: dev
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: dotto++ package feed
+MD5Sum:
+ 633a96e0bce65b6f94658cfcb8f03750 1319 Packages
+ 89351b461d57f332092d6eae68056f18 572 Packages.gz
+ 48441905d45d8c9b27fb2157936701bb 676 Packages.bz2
+ 25bbddcad4ba7d892dbcc4259011e99b 624 Packages.xz
+SHA1:
+ 0d348b2f43b94845f8e595262b3572134e3ee129 1319 Packages
+ a3c9651ad50d4de16b8b57a5653a305bc956cfa8 572 Packages.gz
+ ab1d095c7119c10c6c3b42e0520276b7782bf5d0 676 Packages.bz2
+ a07efc3e19026a35d38e5bbc954877d2384e9d5a 624 Packages.xz
+SHA256:
+ ad3de43baf3554df05aefd516c17840ccf8db581f38e40e82421bef39de43059 1319 Packages
+ defaf246d73c95622c5d61d0ccbc01478a888e009ea791a25302daf2971760b0 572 Packages.gz
+ a00d564d6542a734600880c3d85676a0b8af8dc493442045c88620b3fab265e0 676 Packages.bz2
+ 26172ed6fbeacd2f4524b40d1a0c50e919b6e77e60a5577f755700a7fe852ad5 624 Packages.xz

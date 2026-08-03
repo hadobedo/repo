@@ -1,0 +1,35 @@
+Package: com.nicksworks.dottoplusplus
+Name: dotto++
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Section: Tweaks
+Depends: firmware (<< 18.0), ellekit, preferenceloader
+Replaces: me.conorthedev.dotto+
+Conflicts: me.conorthedev.dotto+
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Installed-Size: 912
+Filename: debs/com.nicksworks.dottoplusplus_1.0.8_iphoneos-arm64.deb
+Size: 118796
+MD5sum: cd34781bf9e1cdde55b8585abbc47ae2
+SHA1: d3926ead72374894ad8deb30f5ce50ad828fb22e
+SHA256: f9bd904b691f6db552e2a853405770d8faffc1a309ce30548cbe20a2eb014866
+
+Package: com.nicksworks.dottoplusplus
+Name: dotto++
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Section: Tweaks
+Depends: firmware (<< 18.0), ellekit, preferenceloader
+Replaces: me.conorthedev.dotto+
+Conflicts: me.conorthedev.dotto+
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Installed-Size: 908
+Filename: debs/com.nicksworks.dottoplusplus_1.0.8_iphoneos-arm64e.deb
+Size: 116162
+MD5sum: 3a2a9ffe06b1966e0ba93b4f023893ee
+SHA1: de32173158fb5411ee011a1bf01ab1f3bdfcdceb
+SHA256: a87af6ccc660a303b3727973a6511c0cd3d2fdf67705c2b81bb33f66054f0318
