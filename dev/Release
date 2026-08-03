@@ -7,17 +7,17 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: dotto++ package feed
 MD5Sum:
- fcab68a21e223bc50ff046ed3791b6ef 1361 Packages
- bb1333225ba1af150dba2e9d4a8bdde4 573 Packages.gz
- ee810121b9213889d2c149d4fa01cb06 703 Packages.bz2
- 5aed485cc0b44afbed7eace3497bbd67 628 Packages.xz
+ d45af198d598ec5bf567abe5e5abef0a 1361 Packages
+ 22e9b1f99324741d7e1cb5fb3a5dd219 571 Packages.gz
+ ad96356df5e0101ff6bc27da9fdbcc94 693 Packages.bz2
+ a4f41211a2a2d2d9261f0fada62bc946 632 Packages.xz
 SHA1:
- e8e2f7394aef8d183fefdb1a6f62c2af57e0b28e 1361 Packages
- 8e683c98696ee52836a017af8096a885ff5ccdcd 573 Packages.gz
- 81348cf70ae08fa4151d4849a8ea045929d33a6a 703 Packages.bz2
- b4f234616ea711bf625b72bbe9d9cb837782b315 628 Packages.xz
+ c2200b6c7f213e22da132adcb8f3ef397edadaed 1361 Packages
+ 0f09bad38ba6d02ff8fb88b3a9651165e59263df 571 Packages.gz
+ eb2a8bded16ad4015265e267a96b1a5e8a3221c3 693 Packages.bz2
+ 22cd7a1d29baab7610a7cc6dc05cc6dd99d4e819 632 Packages.xz
 SHA256:
- 93e43948d9dcc936d183e935e2ed7fcc8e107346d7dd4227e77447d289d828e8 1361 Packages
- 721ae23c2d32c4b55267329fd187526e5c318baabf6fd5ee3cb7b4019334c94f 573 Packages.gz
- d0adf8ff90da033bd0fd3ac540a714420b5e40e14df6875bafd4e0051d281912 703 Packages.bz2
- 03dc40205dd673392649fd6ad059e37a5e612f0965069468130ade04de1f739b 628 Packages.xz
+ eae72adc5c9a78f6f1232c078119487e9a3332f4c7312fbdccc0862720b27085 1361 Packages
+ 474fd05d90a064653848e726c41ecc836a1ba2796de410d6de86ce8503a8d686 571 Packages.gz
+ 42ef3adef9525f86deaa28fed6b5be8967fae1c64d2fe277fa4dacd6e710ec6c 693 Packages.bz2
+ 47db337b1e52e91280fddaf961405c6f975bd76c809f95c4386f94b3ff05fd99 632 Packages.xz
