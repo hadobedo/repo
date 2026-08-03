@@ -1,4 +1,4 @@
 Package: com.nicksworks.dottoplusplus
 Version: 1.1.1
-Source-Commit: 4c309615dc6f23600d38b6864d608ced2855699c
-Published-At: 2026-08-03T21:35:53Z
+Source-Commit: 71a8af95cb6d794588d5a6093259b8aff1f3e37d
+Published-At: 2026-08-03T21:42:22Z
