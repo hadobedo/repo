@@ -1,0 +1,13 @@
+Origin: Nicks Works
+Label: Nicks Works
+Suite: stable
+Codename: rootless
+Architectures: iphoneos-arm64
+Components: main
+Description: dotto++ package feed
+MD5Sum:
+ 4b9706ad4521ee7e6279879eb3c73365 0 Packages
+ d1c553bd72de73859cca09730c89c53d 0 Packages.gz
+SHA256:
+ c3343eb6e162905b1c4faa08a0c7b5104b3e9af5d0ba7b3f4186c1ff3ce4b452 0 Packages
+ a733178c09fc057ae9ba9c6dfe6498b5c4cb478eadc244545a18d3a67fd91910 0 Packages.gz

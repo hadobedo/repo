@@ -1,0 +1,13 @@
+Origin: Nicks Works
+Label: Nicks Works
+Suite: stable
+Codename: roothide
+Architectures: iphoneos-arm64e
+Components: main
+Description: dotto++ package feed
+MD5Sum:
+ 27ff846b5ff21531b32d087e7e12f9c4 0 Packages
+ 96ab51cb7baedc8d1120d9ea136612af 0 Packages.gz
+SHA256:
+ 12e6185183d3b093c3137cd058007c3ca6195c0a20ba0f5d5c42cb7500059ebe 0 Packages
+ 6a4acb68c99f035a5a7a77c8a1e4ca59e6beee06896680cfeda99dd32db77bf6 0 Packages.gz

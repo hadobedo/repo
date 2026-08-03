@@ -1,0 +1,13 @@
+Origin: Nicks Works
+Label: Nicks Works
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: dotto++ package feed
+MD5Sum:
+ 38dbf9213524a750df9af3ba379be816 0 Packages
+ c288f8d8c78e7ffbe8329fca6fecc2ed 0 Packages.gz
+SHA256:
+ 7c184df8d5e116727c8c050a3c5206e2070c39f77cef31d0a58dd40ccd56bcf5 0 Packages
+ 692874e8dbbe75ff9e563814e71b256dabe0ee7f12e7d1478dba459a14ad015c 0 Packages.gz
