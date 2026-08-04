@@ -6,8 +6,8 @@ Architectures: iphoneos-arm64
 Components: main
 Description: dotto++ package feed
 MD5Sum:
- cffa41ad8ffe1459c9f7ccf18121b975 1317 Packages
- 5cad10014df2487161d063fc8585d4fc 585 Packages.gz
+ 6149d66793da81dbd6b01789c7bb14af 2285 Packages
+ 1eb10310d839e31f5c6c4db374860e25 795 Packages.gz
 SHA256:
- 2072fd3e13c88b1e9051cbd82c0b141efd031b4b829dbfadb6f285a81f2bd80c 1317 Packages
- 29bddc61496f98602b3a491fdc346d30343ee95122eba9ba78532397fa2b0059 585 Packages.gz
+ 020be0a838486e66d81b938bf1569ee88ac7d1bcb48f19f0434576d15e22c303 2285 Packages
+ 2f8217b04eecc6f263d1f9902bbe9553d1a7e898e991c44b6b3faa19abd11a0f 795 Packages.gz

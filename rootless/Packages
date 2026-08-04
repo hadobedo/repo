@@ -34,3 +34,25 @@ Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTh
 Author: Nick's Works (Hadobedo)
 Name: dotto++
 
+Package: com.nicksworks.dottoplusplus
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Installed-Size: 864
+Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
+Conflicts: me.conorthedev.dotto+
+Replaces: me.conorthedev.dotto+
+Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
+Size: 117164
+MD5sum: 4453c280da6130d31ccf9416428cb672
+SHA1: e3e7cc91ea3880a5023209f97c26bea01de29d0b
+SHA256: 0a65c2993c41fe0fba3426bbbdade53e9d30894d1b2672a756847653cc8ef093
+Section: Tweaks
+Homepage: https://github.com/hadobedo/dotto-
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
+Author: Nick's Works (Hadobedo)
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+Name: dotto++
+Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+
