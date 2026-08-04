@@ -4,9 +4,9 @@ Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTh
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
 Homepage: https://github.com/hadobedo/dotto-
-Icon: https://hadobedo.github.io/repo/dev/assets/dottoplusplus.png
-SileoDepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.json
-Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.html
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
@@ -15,10 +15,10 @@ Architecture: iphoneos-arm64
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 146478
-MD5sum: b44ed76e629df09ceb73d1818afdc3cb
-SHA1: 6bb53d48dc0ebc502488759dd29b8b77c3b99cff
-SHA256: 02a18c42e850fd8df35484cf052854497efc63c7992f1caeaff89fb1da42fac2
+Size: 146472
+MD5sum: 93363d4a1044d2f6f756123f6c5ae3b0
+SHA1: 2bdc67fc5ad50dab7d0fb17144b7ca245ccf5191
+SHA256: 66936b81e61046dec40a848bfa651a35a7e9aa2fb35e29670e817825eb1520e2
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
@@ -26,9 +26,9 @@ Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTh
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
 Homepage: https://github.com/hadobedo/dotto-
-Icon: https://hadobedo.github.io/repo/dev/assets/dottoplusplus.png
-SileoDepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.json
-Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.html
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
@@ -37,7 +37,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 144042
-MD5sum: 6ccc22367a2a39236ff0412e018eb4ed
-SHA1: 6d2d72075ea4e89409398085d246ebb30885d9f3
-SHA256: 8189834e00ffdebe524de92aa22a3c610c3f8f8facddbcf818e699278a96bd94
+Size: 144014
+MD5sum: ce8863a6746c157c6a66ac516a35060b
+SHA1: 2948e7995107b3af4754c5cbeddbf73e6933d39d
+SHA256: 1da55d010711467ce36e31df891da5bcef93e017957488ed8c52a2e03e042bf0
