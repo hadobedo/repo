@@ -3,6 +3,10 @@ Name: dotto++
 Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/dotto-
+Icon: https://hadobedo.github.io/repo/dev/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.html
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
@@ -11,16 +15,20 @@ Architecture: iphoneos-arm64
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 146392
-MD5sum: 65ef448383de8777997de021c5e0c503
-SHA1: eda0168600bdf66702ba05cdaf17ce4e7a8bfd62
-SHA256: 705bf500912ec639cd646db853d34dd4f63868910d3d4861a8ea31ad46aa2a91
+Size: 146478
+MD5sum: b44ed76e629df09ceb73d1818afdc3cb
+SHA1: 6bb53d48dc0ebc502488759dd29b8b77c3b99cff
+SHA256: 02a18c42e850fd8df35484cf052854497efc63c7992f1caeaff89fb1da42fac2
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
 Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
 Maintainer: Nick's Works <hadobedo@gmail.com>
 Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/dotto-
+Icon: https://hadobedo.github.io/repo/dev/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.dottoplusplus.html
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Replaces: me.conorthedev.dotto+
@@ -29,7 +37,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 143934
-MD5sum: 2f826ebfdb01c5ba2eec313748d8fdcf
-SHA1: 49e37e0feb532f0ed46e8a0e9eba182061f96c70
-SHA256: d04bb876b518619b3c7b27d1cc2e47f1abf83cf2a9f6fc572ae2d2ec3ab123fd
+Size: 144042
+MD5sum: 6ccc22367a2a39236ff0412e018eb4ed
+SHA1: 6d2d72075ea4e89409398085d246ebb30885d9f3
+SHA256: 8189834e00ffdebe524de92aa22a3c610c3f8f8facddbcf818e699278a96bd94

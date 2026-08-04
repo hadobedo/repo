@@ -1,0 +1,122 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#B96DFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "A focused badge redesign for modern rootless and RootHide devices. dotto++ keeps the familiar dotto+ look while improving badge placement, adaptive colour, SnowBoard compatibility, and idle performance.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.1.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15–17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Formats",
+          "text": "Rootless · RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.nicksworks.dottoplusplus"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source on GitHub",
+          "action": "https://github.com/hadobedo/dotto-",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support on Ko-fi",
+          "action": "https://ko-fi.com/nicksworks",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "X / Twitter",
+          "action": "https://twitter.com/Nicks_Works",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Instagram",
+          "action": "https://instagram.com/Nicks_Works",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "YouTube",
+          "action": "https://www.youtube.com/@NicksWorks",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "At a glance"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added a live **Enabled** switch that restores native/SnowBoard badges without a respring.\n- Reworked SnowBoard compatibility around a dedicated dotto++ overlay and symmetric state restoration.\n- Fixed badge size and corner placement across normal icons, folders, dock/wide containers, paging, and live transitions.\n- Reduced redundant layout/reapply work and eliminated idle badge-processing activity.\n- Improved adaptive colours, including folder colours derived from currently badged apps.",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added a live **Enabled** switch that restores native/SnowBoard badges without a respring.\n- Reworked SnowBoard compatibility around a dedicated dotto++ overlay and symmetric state restoration.\n- Fixed badge size and corner placement across normal icons, folders, dock/wide containers, paging, and live transitions.\n- Reduced redundant layout/reapply work and eliminated idle badge-processing activity.\n- Improved adaptive colours, including folder colours derived from currently badged apps.\n- Restored the original dotto+ pastel algorithm and added the optional **Alt. Pastel Algorithm** using OKLab/OKLCH.\n- Fixed the custom colour picker so it remains disabled and visibly dimmed while Adaptive Colour is enabled.\n- Hardened preference handling, colour extraction, private KVC access, and main-thread updates.\n- Fixed package resource layout, aligned package/bundle versions, declared iOS 15–17 bounds, and strengthened rootless/RootHide CI/package verification.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added the modern rootless/RootHide package adaptation for iOS 15–17.\n- Added the initial localized preferences experience, including the rebuilt appearance and colour controls.\n- Added the preference-bundle links and credits presentation.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
