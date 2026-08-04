@@ -11,10 +11,10 @@ Architecture: iphoneos-arm64
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 146388
-MD5sum: 78245555a2b78af4c24a1179e13c4759
-SHA1: 135f06071c377b5577a05f9efc9bd33b6dc89f62
-SHA256: 387d6a5c01f548522b3006d08e10494c953dccf6a4a05292c733cf69f9ce6238
+Size: 146382
+MD5sum: d9497af1c523361341450c462bdb4076
+SHA1: 58607cb9ae812c2690c580274d329a87b636bece
+SHA256: 6a014b97d00100a9fd86e00e9ae1353163691dca30f31f468ed6cf760fd2331f
 
 Package: com.nicksworks.dottoplusplus
 Name: dotto++
@@ -29,7 +29,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.1
 Installed-Size: 1056
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 143942
-MD5sum: c09e73b0e2accbc04eba1bddfde4e49d
-SHA1: 717eac0723732caba699997c8367b9f72ee3bb82
-SHA256: 20df60ae339d4e796c993710949e8a1034d70d8108e651b1052561c49f89fb3f
+Size: 143946
+MD5sum: 19192cb6ef6192a9501cfb459f8e3a84
+SHA1: 4dcd2cee53294a9b7d908b27a8c04a4ca390306e
+SHA256: f14499b6d9015ff5292a6d6c660878c739ba6c57c541e70aae59aee98223a34c
