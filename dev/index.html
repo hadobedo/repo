@@ -1,1 +1,166 @@
-<html><head><meta http-equiv="refresh" content="0; url=Packages"></head><body>dotto++ development feed</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17131f">
+  <meta name="description" content="dotto++ 1.1.1 development package feed and release notes">
+  <link rel="canonical" href="https://hadobedo.github.io/repo/dev/">
+  <title>dotto++ 1.1.1 · Nick's Works</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #100d16;
+      --panel: rgba(28, 23, 38, .78);
+      --panel-solid: #1c1726;
+      --line: rgba(255, 255, 255, .12);
+      --text: #f8f4ff;
+      --muted: #b9aec8;
+      --accent: #eaa3ff;
+      --accent-strong: #ba6dff;
+      --cyan: #7ce7df;
+      --shadow: 0 24px 70px rgba(0, 0, 0, .28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 8% 0%, rgba(186, 109, 255, .22), transparent 33rem),
+        radial-gradient(circle at 95% 14%, rgba(124, 231, 223, .13), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+    }
+    a { color: inherit; }
+    .shell { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 28px 0 8px; }
+    nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 750; letter-spacing: -.02em; text-decoration: none; }
+    .brand-mark {
+      width: 28px; height: 28px; border-radius: 50%; display: inline-block;
+      background: linear-gradient(135deg, #ffc4ff 5%, #d982ff 48%, #8f5dff 100%);
+      box-shadow: 0 0 0 6px rgba(218, 130, 255, .11), 0 6px 22px rgba(186, 109, 255, .45);
+    }
+    .nav-link { color: var(--muted); font-size: .9rem; text-decoration: none; }
+    .nav-link:hover, .nav-link:focus-visible { color: var(--text); }
+    .hero { padding: 72px 0 56px; max-width: 790px; }
+    .eyebrow { color: var(--cyan); font-size: .78rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 14px 0 12px; font-size: clamp(3.2rem, 10vw, 7rem); line-height: .9; letter-spacing: -.075em; }
+    .version { color: var(--accent); }
+    .lede { max-width: 650px; margin: 0; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
+      padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none;
+      font-weight: 700; background: rgba(255,255,255,.06);
+    }
+    .button.primary { border-color: transparent; color: #21102d; background: linear-gradient(100deg, #ffc0ff, #c087ff); }
+    .button:hover, .button:focus-visible { transform: translateY(-1px); border-color: var(--accent); }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 24px; color: var(--muted); font-size: .86rem; }
+    .meta span::before { content: ""; display: inline-block; width: 7px; height: 7px; margin: 0 8px 1px 0; border-radius: 50%; background: var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; padding-bottom: 18px; }
+    .card { grid-column: span 12; padding: 26px; border: 1px solid var(--line); border-radius: 24px; background: var(--panel); box-shadow: var(--shadow); backdrop-filter: blur(18px); }
+    .card.half { grid-column: span 6; }
+    .card h2 { margin: 0 0 6px; font-size: 1.35rem; letter-spacing: -.025em; }
+    .card-intro { margin: 0 0 18px; color: var(--muted); }
+    .install-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .install { display: flex; flex-direction: column; gap: 5px; padding: 16px; border: 1px solid var(--line); border-radius: 17px; background: rgba(255,255,255,.045); text-decoration: none; }
+    .install:hover, .install:focus-visible { border-color: var(--accent); background: rgba(234,163,255,.09); }
+    .install strong { font-size: 1rem; }
+    .install small { color: var(--muted); }
+    .install code { margin-top: 8px; color: var(--cyan); font-size: .75rem; overflow-wrap: anywhere; }
+    .changelog { margin: 18px 0 0; padding-left: 20px; color: var(--muted); }
+    .changelog li { margin: 9px 0; padding-left: 3px; }
+    strong, code { color: var(--text); }
+    code { padding: 2px 6px; border-radius: 6px; background: rgba(255,255,255,.08); font-size: .88em; }
+    .links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+    .link-card { display: flex; justify-content: space-between; gap: 12px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 13px; color: var(--muted); text-decoration: none; }
+    .link-card:hover, .link-card:focus-visible { color: var(--text); border-color: var(--accent); }
+    .arrow { color: var(--accent); }
+    footer { display: flex; justify-content: space-between; gap: 16px; padding: 38px 0 46px; color: var(--muted); font-size: .82rem; }
+    footer a { text-decoration: none; }
+    footer a:hover, footer a:focus-visible { color: var(--text); }
+    @media (max-width: 700px) {
+      .shell { width: min(100% - 24px, 560px); }
+      header { padding-top: 20px; }
+      .hero { padding: 58px 0 42px; }
+      .card.half { grid-column: span 12; }
+      .install-grid, .links { grid-template-columns: 1fr; }
+      .card { padding: 21px; border-radius: 20px; }
+      footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .button { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="shell">
+    <nav aria-label="Primary">
+      <a class="brand" href="https://github.com/hadobedo/dotto-"><span class="brand-mark" aria-hidden="true"></span><span>Nick's Works</span></a>
+      <a class="nav-link" href="Packages">APT metadata</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Development feed · iOS 15–17</div>
+      <h1>dotto++ <span class="version">1.1.1</span></h1>
+      <p class="lede">A small, careful badge redesign for modern rootless and RootHide devices. This page is the human-friendly front door; Sileo and Zebra still use the normal APT metadata below.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#install">Install options <span aria-hidden="true">↓</span></a>
+        <a class="button" href="https://github.com/hadobedo/dotto-" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="meta"><span>Version 1.1.1</span><span>Built from 28f7f3d078b6</span><span>Dev build · 2026-08-04T06:22:51Z</span></div>
+    </section>
+
+    <section class="grid" id="install">
+      <article class="card">
+        <h2>Install dotto++</h2>
+        <p class="card-intro">Add this repository to Sileo, Zebra, or another APT-compatible package manager. Choose the package matching your jailbreak environment.</p>
+        <div class="install-grid">
+          <a class="install" href="debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb"><strong>Rootless</strong><small>iphoneos-arm64</small><code>Download .deb ↗</code></a>
+          <a class="install" href="debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb"><strong>RootHide</strong><small>iphoneos-arm64e</small><code>Download .deb ↗</code></a>
+        </div>
+        <p class="card-intro" style="margin:18px 0 0">Repository URL: <code>https://hadobedo.github.io/repo/dev/</code></p>
+      </article>
+
+      <article class="card half">
+        <h2>What's new in 1.1.1</h2>
+        <p class="card-intro">The practical version: better placement, colour, compatibility, and less repeated work.</p>
+        <ul class="changelog">
+              <li>Added a live <strong>Enabled</strong> switch that restores native/SnowBoard badges without a respring.</li>
+              <li>Reworked SnowBoard compatibility around a dedicated dotto++ overlay and symmetric state restoration.</li>
+              <li>Fixed badge size and corner placement across normal icons, folders, dock/wide containers, paging, and live transitions.</li>
+              <li>Reduced redundant layout/reapply work and eliminated idle badge-processing activity.</li>
+              <li>Improved adaptive colours, including folder colours derived from currently badged apps.</li>
+              <li>Restored the original dotto+ pastel algorithm and added the optional <strong>Alt. Pastel Algorithm</strong> using OKLab/OKLCH.</li>
+              <li>Fixed the custom colour picker so it remains disabled and visibly dimmed while Adaptive Colour is enabled.</li>
+              <li>Hardened preference handling, colour extraction, private KVC access, and main-thread updates.</li>
+              <li>Fixed package resource layout, aligned package/bundle versions, declared iOS 15–17 bounds, and strengthened rootless/RootHide CI/package verification.</li>
+        </ul>
+      </article>
+
+      <article class="card half">
+        <h2>Find Nick's Works</h2>
+        <p class="card-intro">Source, support, and socials from the Links section in the tweak preferences.</p>
+        <div class="links">
+              <a class="link-card" href="https://github.com/hadobedo/dotto-" target="_blank" rel="noreferrer"><span>GitHub</span><span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="link-card" href="https://ko-fi.com/nicksworks" target="_blank" rel="noreferrer"><span>Ko-fi</span><span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="link-card" href="https://twitter.com/Nicks_Works" target="_blank" rel="noreferrer"><span>X / Twitter</span><span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="link-card" href="https://instagram.com/Nicks_Works" target="_blank" rel="noreferrer"><span>Instagram</span><span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="link-card" href="https://www.youtube.com/@NicksWorks" target="_blank" rel="noreferrer"><span>YouTube</span><span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>dotto++ · Nick's Works</span>
+    <span><a href="Packages">Packages</a> · <a href="Release">Release metadata</a></span>
+  </footer>
+</body>
+</html>
