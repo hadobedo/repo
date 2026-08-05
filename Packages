@@ -79,10 +79,10 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Conflicts: me.conorthedev.dotto+
 Replaces: me.conorthedev.dotto+
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 115652
-MD5sum: e85b5a7908058c1b19e69d465a184056
-SHA1: 9537063caf8554344fbadd96010983deb416197c
-SHA256: 80b423c1a41716b5fc9a69a58069664a2e8cb07b6188856b8f30da5fad410d3b
+Size: 115566
+MD5sum: 0bbb78b0117bed00840705b5f4bd9eba
+SHA1: 36d033b6923630b858d5cd00572167414a957a2f
+SHA256: ac78dda85d7c72197ba225d25c45459fca32b17450bd56e77c24cf22ddd2f22f
 Section: Tweaks
 Homepage: https://github.com/hadobedo/dotto-
 Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
@@ -101,10 +101,10 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Conflicts: me.conorthedev.dotto+
 Replaces: me.conorthedev.dotto+
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 117186
-MD5sum: 1c4350c9d479dbf14bd620241a6f9b0f
-SHA1: 7f60fc5e767697bc570b0006c65dab1f8d93f5d8
-SHA256: 3eae96646cef4893f2de7816b2d5db7618aad03e063c77f8741001ab145add64
+Size: 117100
+MD5sum: 08909b46f26692c8be8a18b2c723ed8f
+SHA1: 9baa889dabdaa00261592a89001481e45f45c800
+SHA256: 2d428c8fcae9ac23306d0b522ff7bc535a13a0111240338e5cbe844c8f13c04b
 Section: Tweaks
 Homepage: https://github.com/hadobedo/dotto-
 Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev

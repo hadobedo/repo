@@ -43,10 +43,10 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
 Conflicts: me.conorthedev.dotto+
 Replaces: me.conorthedev.dotto+
 Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 117186
-MD5sum: 1c4350c9d479dbf14bd620241a6f9b0f
-SHA1: 7f60fc5e767697bc570b0006c65dab1f8d93f5d8
-SHA256: 3eae96646cef4893f2de7816b2d5db7618aad03e063c77f8741001ab145add64
+Size: 117100
+MD5sum: 08909b46f26692c8be8a18b2c723ed8f
+SHA1: 9baa889dabdaa00261592a89001481e45f45c800
+SHA256: 2d428c8fcae9ac23306d0b522ff7bc535a13a0111240338e5cbe844c8f13c04b
 Section: Tweaks
 Homepage: https://github.com/hadobedo/dotto-
 Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
