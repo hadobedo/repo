@@ -1,0 +1,64 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keep Now Playing and selected applications alive through sbreload and SpringBoard resprings.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15\u201317 \u00b7 Rootless and RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.nicksworks.roadrunnerreborn"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Usage"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "![Visits](https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn)  ![GitHub downloads](https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source on GitHub",
+          "action": "https://github.com/hadobedo/RoadRunnerReborn",
+          "openExternal": true
+        }
+      ]
+    }
+  ]
+}

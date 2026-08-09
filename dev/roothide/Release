@@ -1,0 +1,13 @@
+Origin: Nicks Works
+Label: Nicks Works
+Suite: stable
+Codename: roothide
+Architectures: iphoneos-arm64e
+Components: main
+Description: Nicks Works jailbreak tweaks
+MD5Sum:
+ 550ba15d3c983b23ef134d9a167639be 1056 Packages
+ 4e4dfe4c740320fad60972b2c85bfd38 590 Packages.gz
+SHA256:
+ b30dfa70d0da607b34260ff788de29b661e23e6e7c7f04faadb63281439fba52 1056 Packages
+ 77be3c1e48b2dfb3b276eb8d4d72dcd335fd658a7e479610ecaf3002a3dbb91d 590 Packages.gz

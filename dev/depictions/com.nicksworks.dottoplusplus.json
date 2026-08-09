@@ -87,6 +87,18 @@
           "class": "DepictionMarkdownView",
           "markdown": "- The dotto++ toggle and all settings should now work without a respring!\n- “Dynamic” folder badge colours are now derived only from apps that currently have badges.\n- Overhauled badge sizing and corner-placement logic.\n- Fixed the dotto+ pastel toggle and added an optional alternative pastel algorithm (OKLab/OKLCH).\n- Fixed SnowBoard behaviour; dotto++ should now properly override SnowBoard badges while enabled.",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Usage"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "![Visits](https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus)  ![GitHub downloads](https://img.shields.io/github/downloads/hadobedo/dotto-/latest/total?label=GitHub%20downloads)",
+          "useSpacing": true
         }
       ]
     },
