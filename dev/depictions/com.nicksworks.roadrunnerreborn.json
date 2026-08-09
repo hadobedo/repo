@@ -1,6 +1,7 @@
 {
   "class": "DepictionTabView",
   "minVersion": "0.3",
+  "tintColor": "#4D9AFF",
   "tabs": [
     {
       "class": "DepictionStackView",
@@ -8,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Keep Now Playing and selected applications alive through sbreload and SpringBoard resprings.",
+          "markdown": "Hey! I’ve updated RoadRunner by the Henriksson Brothers for modern rootless/roothide jailbreaks.\n\n**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nMust-have tweak for me back in the rootful days :)\n\nTested on iOS 15 - 17 rootless, **should** work on rootHide and iOS 18 and newer (fingers crossed)\n\nSubmitted an application to host this on the Havoc repo, will update post/leave comment if/when approved!\n\nIn the meantime...",
           "useSpacing": true
         },
         {
@@ -26,12 +27,49 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iOS 15\u201317 \u00b7 Rootless and RootHide"
+          "text": "Supports iOS 15-17 rootless & roothide (arm64 & arm64e)"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package ID",
           "text": "com.nicksworks.roadrunnerreborn"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Links"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Repo",
+          "action": "https://hadobedo.github.io/repo",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": ".deb Releases",
+          "action": "https://github.com/hadobedo/RoadRunnerReborn/releases",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source",
+          "action": "https://github.com/hadobedo/RoadRunnerReborn",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "At a glance"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Supports iOS 15-17 rootless & roothide (arm64 & arm64e)\n- iPhone 13 Pro Max, iOS 15.4.1 (rootless)\n- iPhone 14 Pro Max, iOS 16.4 (rootless)\n- iPhone 13 Pro, iOS 17.1.1 (rootless)",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -44,19 +82,6 @@
           "class": "DepictionMarkdownView",
           "markdown": "![Visits](https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn)  ![GitHub downloads](https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads)",
           "useSpacing": true
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Links"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "Source on GitHub",
-          "action": "https://github.com/hadobedo/RoadRunnerReborn",
-          "openExternal": true
         }
       ]
     }

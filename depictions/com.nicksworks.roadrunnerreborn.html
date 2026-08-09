@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1677ff">
+  <meta name="theme-color" content="#4D9AFF">
   <title>RoadRunner Reborn 1.0.0 · Nick's Works</title>
   <style>
     :root { color-scheme: dark light; --bg:#101116; --card:#1b1d23; --line:#353943; --text:#f5f7fb; --muted:#a9afbb; --accent:#4d9aff; }
@@ -16,19 +16,38 @@
     .card { margin:16px 0; padding:20px; border:1px solid var(--line); border-radius:18px; background:var(--card); }
     h2 { margin:0 0 10px; font-size:18px; }
     p { color:var(--muted); }
+    ul { margin:8px 0 0; padding-left:22px; color:var(--muted); }
+    li { margin:7px 0; }
+    .links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
+    .links a { padding:10px 12px; border:1px solid var(--line); border-radius:10px; color:var(--text); text-decoration:none; }
+    .links span { float:right; color:var(--accent); }
     .stats { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
     .stats img { height:20px; }
     a { color:var(--accent); }
     footer { color:var(--muted); font-size:12px; text-align:center; }
+    @media (max-width:480px) { .links { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
   <main>
-    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.0.0</div><p class="sub">Nick's Works · iOS 15–17 · Rootless and RootHide</p></header>
-    <section class="card"><h2>About</h2><p>Keep Now Playing and selected applications alive through sbreload and SpringBoard resprings.</p>
-      <div class="stats"><img src="https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn" alt="Visits"><img src="https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads" alt="GitHub downloads"></div>
+    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.0.0</div><p class="sub">Nick's Works · Supports iOS 15-17 rootless &amp; roothide (arm64 &amp; arm64e)</p></header>
+    <section class="card">
+      <h2>About</h2>
+      <p>Hey! I’ve updated RoadRunner by the Henriksson Brothers for modern rootless/roothide jailbreaks.</p>
+      <p><strong>RoadRunner Reborn</strong> makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!</p>
+      <p>Must-have tweak for me back in the rootful days :)</p>
+      <p>Tested on iOS 15 - 17 rootless, <strong>should</strong> work on rootHide and iOS 18 and newer (fingers crossed)</p>
+      <p>Submitted an application to host this on the Havoc repo, will update post/leave comment if/when approved!</p>
+      <p>In the meantime...</p>
     </section>
-    <section class="card"><h2>Links</h2><p><a href="https://github.com/hadobedo/RoadRunnerReborn" target="_blank" rel="noreferrer">Source on GitHub ↗</a></p></section>
+    <section class="card"><h2>Links</h2><div class="links"><a href="https://hadobedo.github.io/repo" target="_blank" rel="noreferrer">Repo <span>↗</span></a>
+<a href="https://github.com/hadobedo/RoadRunnerReborn/releases" target="_blank" rel="noreferrer">.deb Releases <span>↗</span></a>
+<a href="https://github.com/hadobedo/RoadRunnerReborn" target="_blank" rel="noreferrer">Source <span>↗</span></a></div></section>
+    <section class="card"><h2>At a glance</h2><ul>          <li>Supports iOS 15-17 rootless &amp; roothide (arm64 &amp; arm64e)</li>
+          <li>iPhone 13 Pro Max, iOS 15.4.1 (rootless)</li>
+          <li>iPhone 14 Pro Max, iOS 16.4 (rootless)</li>
+          <li>iPhone 13 Pro, iOS 17.1.1 (rootless)</li></ul></section>
+    <section class="card"><h2>Usage</h2><div class="stats"><img src="https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn" alt="Visits"><img src="https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads" alt="GitHub downloads"></div></section>
     <footer>com.nicksworks.roadrunnerreborn · <a href="https://hadobedo.github.io/repo/Packages">APT metadata</a></footer>
   </main>
 </body>
