@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Hey! I’ve updated RoadRunner by the Henriksson Brothers for modern rootless/roothide jailbreaks.\n\n**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nMust-have tweak for me back in the rootful days :)\n\nTested on iOS 15 - 17 rootless, **should** work on rootHide and iOS 18 and newer (fingers crossed)\n\nSubmitted an application to host this on the Havoc repo, will update post/leave comment if/when approved!\n\nIn the meantime...",
+          "markdown": "**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nTested on iOS 15 - 17 rootless, **should** work on rootHide and iOS 18 and newer (fingers crossed)",
           "useSpacing": true
         },
         {
@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "Supports iOS 15-17 rootless & roothide (arm64 & arm64e)"
+          "text": "- Initial release!"
         },
         {
           "class": "DepictionTableTextView",
@@ -40,18 +40,6 @@
         {
           "class": "DepictionHeaderView",
           "title": "Links"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "Repo",
-          "action": "https://hadobedo.github.io/repo",
-          "openExternal": true
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": ".deb Releases",
-          "action": "https://github.com/hadobedo/RoadRunnerReborn/releases",
-          "openExternal": true
         },
         {
           "class": "DepictionTableButtonView",
@@ -92,7 +80,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Supports iOS 15-17 rootless & roothide (arm64 & arm64e)\n- iPhone 13 Pro Max, iOS 15.4.1 (rootless)\n- iPhone 14 Pro Max, iOS 16.4 (rootless)\n- iPhone 13 Pro, iOS 17.1.1 (rootless)",
+          "markdown": "- - Initial release!\n- - Removed dependancy on 'AppList'",
           "useSpacing": true
         },
         {
