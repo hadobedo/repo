@@ -4,10 +4,12 @@ Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: dotto++ package feed
+Description: Nicks Works jailbreak tweaks
 MD5Sum:
- bae9a1dc4f5ff9620785866b8db130fa 4576 Packages
- 9bc33dc466ae52eb78b582a2c2b6802b 1120 Packages.gz
+ aecee7237fe67433e53af4686fed4dc5 6686 Packages
+ 47bbba2677778f1394cd4dc2d711497f 1537 Packages.gz
+ 9150fcca4523e71a38da0b5b453abd0d 1516 Packages.xz
 SHA256:
- 5ccf0664ac1d33999fd19289a2f96cbe559c46d786d0f6a5fe32114f4bc1c20e 4576 Packages
- 197a76ca7d03a3ad1050c9a61133a3ec71d21230075a35c17697506de14db922 1120 Packages.gz
+ 8ee3f6b310fc964efecf89bebb66950f5409b0beab604151f8bf59b82779a9c1 6686 Packages
+ 7c7930c9e2f8f59ebbb65711b9b974ba23f3b7bbdfaa62bdcec52ea66b174c87 1537 Packages.gz
+ 6f3ba1f190c9987bfdc0378fc6e25cebc711be4443cea7e68f18fb84ab36d5ca 1516 Packages.xz
