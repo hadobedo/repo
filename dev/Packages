@@ -51,10 +51,10 @@ Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Filename: debs/com.nicksworks.roadrunnerreborn_1.0.0_iphoneos-arm64.deb
-Size: 49004
-MD5sum: 4a6bc99bdd76ccd34fb9a67dd7cd036b
-SHA1: 9cd93a2f67b9aec22c15149e09ffb77fca04714f
-SHA256: efaf79ff29c4671a59ceaaac0fba9f192cdd7cc07e1c1dca47762dfe703a2d81
+Size: 48976
+MD5sum: 4bc23ca4350a892dc9f99bdb7c017ac3
+SHA1: da5a71f8fa64f7221b3a3283208fc1b8b8089d26
+SHA256: 4a64a3e4e3634ae51529f3d811ee559c3d85418233e829ab2ff3308a4cd2bff3
 Section: Tweaks
 Homepage: https://github.com/hadobedo/RoadRunnerReborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks.
@@ -72,10 +72,10 @@ Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Filename: debs/com.nicksworks.roadrunnerreborn_1.0.0_iphoneos-arm64e.deb
-Size: 37130
-MD5sum: 261ac71946aef4a47fcb0afd245fe3ae
-SHA1: 00b4a7c781313925e054866076a83ec4155a5d28
-SHA256: 50cc00d336b43206868e33c68c8647927c718d5b56047a24e9fe017109e6b4da
+Size: 37108
+MD5sum: 05cd29221706ab84fb7bcb331c5e543b
+SHA1: b482e56ed42a03cf98aa046658b084d6c7d0bb69
+SHA256: 04786a921b841c286488e4af9e19206ddbae4134b26277403a1a638238db67c8
 Section: Tweaks
 Homepage: https://github.com/hadobedo/RoadRunnerReborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks.
