@@ -27,7 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "- Initial release!"
+          "text": "iOS 15+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Formats",
+          "text": "Rootless · RootHide"
         },
         {
           "class": "DepictionTableTextView",
@@ -80,7 +85,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- - Initial release!\n- - Removed dependancy on 'AppList'",
+          "markdown": "- Initial release!\n- Removed dependancy on 'AppList'",
           "useSpacing": true
         },
         {
