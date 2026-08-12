@@ -6,10 +6,10 @@ Architectures: iphoneos-arm64
 Components: main
 Description: Nicks Works jailbreak tweaks
 MD5Sum:
- fc6580b678f47d38d5ae27ba33805509 1054 Packages
- b61413d5c1cd3ffeca9b909e94867c44 592 Packages.gz
- 5ff355e0cb5e22aa60577aba992a23d5 664 Packages.xz
+ 0b3bd404db9668bab813e5af8f8e84ef 2245 Packages
+ 72c0bc76b6fa60c2b0206db4ec6dfc47 805 Packages.gz
+ 01cdf41d0a2d0804372ca7d2975e1549 876 Packages.xz
 SHA256:
- b1421a9bc60bb1c1a831d4fe3cfef4938ecbe95b2cc411b8f91013c81053c075 1054 Packages
- bf18bbb06395aabbe19f31df5324ba38ffe49bb8806907e187d6db0941ebc451 592 Packages.gz
- f312274dc065728b826744c2796c0c321b87505b89c45ef2a01ca52876649a4f 664 Packages.xz
+ 881b7f3ec5a86d5fd7f244e0a7c29bcbdbfa3c21e46ce3f0e9106b4be9217b0a 2245 Packages
+ 39d95fb7dff43bc198207985bb4f6e359154f08ea6283f383476b3c87c85d072 805 Packages.gz
+ 3a731cfa90be8b5361c0c3ac84745fbbcaf897ed54523509f33fc306ff8b3add 876 Packages.xz

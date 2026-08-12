@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#4D9AFF">
-  <title>RoadRunner Reborn 1.0.0 · Nick's Works</title>
+  <title>RoadRunner Reborn 1.1.0 · Nick's Works</title>
   <style>
     :root { color-scheme: dark light; --bg:#101116; --card:#1b1d23; --line:#353943; --text:#f5f7fb; --muted:#a9afbb; --accent:#4d9aff; }
     * { box-sizing:border-box; }
@@ -30,7 +30,7 @@
 </head>
 <body>
   <main>
-    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.0.0</div><p class="sub">Nick's Works · iOS 15+</p></header>
+    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.1.0</div><p class="sub">Nick's Works · iOS 15+</p></header>
     <section class="card">
       <h2>About</h2>
       <p><strong>RoadRunner Reborn</strong> makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!</p>
@@ -41,8 +41,11 @@
 <a href="https://twitter.com/Nicks_Works" target="_blank" rel="noreferrer">X / Twitter <span>↗</span></a>
 <a href="https://instagram.com/Nicks_Works" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
 <a href="https://www.youtube.com/@NicksWorks" target="_blank" rel="noreferrer">YouTube <span>↗</span></a></div></section>
-    <section class="card"><h2>At a glance</h2><ul>          <li>Initial release!</li>
-          <li>Removed dependancy on 'AppList'</li></ul></section>
+    <section class="card"><h2>At a glance</h2><ul>          <li>Apps that are meant to survive a respring are captured more reliably</li>
+          <li>System apps like Spotlight are no longer kept alive needlessly due to over-capture from blacklist, so they should not get stuck after a respring.</li>
+          <li>Blacklist mode only considers regular apps shown in the app list</li>
+          <li>Stale Now Playing entries are cleared instead of reused.</li>
+          <li>SpringBoard and runningboardd now use separate, smaller hooks w/ better logging when loading or capture goes wrong.</li></ul></section>
     <section class="card"><h2>Usage</h2><div class="stats"><img src="https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn" alt="Visits"><img src="https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads" alt="GitHub downloads"></div></section>
     <footer>com.nicksworks.roadrunnerreborn · <a href="https://hadobedo.github.io/repo/Packages">APT metadata</a></footer>
   </main>

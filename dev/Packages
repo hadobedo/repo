@@ -84,3 +84,45 @@ Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerr
 Name: RoadRunner Reborn
 Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
 
+Package: com.nicksworks.roadrunnerreborn
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Installed-Size: 388
+Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
+Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Filename: debs/com.nicksworks.roadrunnerreborn_1.1.0_iphoneos-arm64e.deb
+Size: 47392
+MD5sum: ac59b61eb9c01866fa8838009a9acde0
+SHA1: 2b6e77d4e53b6da907a01730358c20e5124ddc58
+SHA256: fa8a0bb5e38434355af5a054ee9d6cca1de7f39ebad5175f2293aaed76b314b3
+Section: Tweaks
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
+Author: Nick's Works (Hadobedo)
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Name: RoadRunner Reborn
+Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+
+Package: com.nicksworks.roadrunnerreborn
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Installed-Size: 788
+Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
+Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Filename: debs/com.nicksworks.roadrunnerreborn_1.1.0_iphoneos-arm64.deb
+Size: 67350
+MD5sum: f6c8e021a6112dee2f4bc4038bd60ee8
+SHA1: b486f567188865b0115cc1f6979aeea20ab78c98
+SHA256: 813e2ce3b6ce96cec3a3c88547e640f5f5fb642f4fe92e0a43c965e5bb00c4e0
+Section: Tweaks
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
+Author: Nick's Works (Hadobedo)
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Name: RoadRunner Reborn
+Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+
