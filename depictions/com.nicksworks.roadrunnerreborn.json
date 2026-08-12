@@ -17,27 +17,12 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Information"
+          "title": "Changelog"
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "Version",
-          "text": "1.1.0"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Compatibility",
-          "text": "iOS 15+"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Formats",
-          "text": "Rootless · RootHide"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Package ID",
-          "text": "com.nicksworks.roadrunnerreborn"
+          "class": "DepictionMarkdownView",
+          "markdown": "- Apps that are meant to survive a respring are captured more reliably\n- System apps like Spotlight are no longer kept alive needlessly due to over-capture from blacklist, so they should not get stuck after a respring.\n- Blacklist mode only considers regular apps shown in the app list\n- Stale Now Playing entries are cleared instead of reused.\n- SpringBoard and runningboardd now use separate, smaller hooks w/ better logging when loading or capture goes wrong.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -81,12 +66,27 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "At a glance"
+          "title": "Information"
         },
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "- Apps that are meant to survive a respring are captured more reliably\n- System apps like Spotlight are no longer kept alive needlessly due to over-capture from blacklist, so they should not get stuck after a respring.\n- Blacklist mode only considers regular apps shown in the app list\n- Stale Now Playing entries are cleared instead of reused.\n- SpringBoard and runningboardd now use separate, smaller hooks w/ better logging when loading or capture goes wrong.",
-          "useSpacing": true
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15+"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Formats",
+          "text": "Rootless · RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.nicksworks.roadrunnerreborn"
         },
         {
           "class": "DepictionSeparatorView"
