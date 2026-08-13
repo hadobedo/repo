@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.1.0**\n\n- Apps that are meant to survive a respring are captured more reliably\n- System apps like Spotlight are no longer kept alive needlessly due to over-capture from blacklist, so they should not get stuck after a respring.\n- Blacklist mode only considers regular apps shown in the app list\n- Stale Now Playing entries are cleared instead of reused.\n- SpringBoard and runningboardd now use separate, smaller hooks w/ better logging when loading or capture goes wrong.",
+          "markdown": "**1.1.1**\n\n- Apps that are meant to survive are captured more reliably.\n- Survivor handoff data is now stored properly in a plist instead of the temp directory.\n- Invalid survivor records are ignored instead of being restored.\n- SpringBoard and runningboardd coordinate so they do not overwrite each other’s changes.\n- Blacklist mode keeps its existing app list when iOS temporarily cannot provide a valid app list.\n- Missing process information no longer causes SpringBoard to crash randomly.",
           "useSpacing": true
         },
         {
@@ -71,7 +71,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.0"
+          "text": "1.1.1"
         },
         {
           "class": "DepictionTableTextView",
