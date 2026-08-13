@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#4D9AFF">
-  <title>RoadRunner Reborn 1.1.10 · Nick's Works</title>
+  <title>RoadRunner Reborn 1.1.11 · Nick's Works</title>
   <style>
     :root { color-scheme: dark light; --bg:#101116; --card:#1b1d23; --line:#353943; --text:#f5f7fb; --muted:#a9afbb; --accent:#4d9aff; }
     * { box-sizing:border-box; }
@@ -30,13 +30,13 @@
 </head>
 <body>
   <main>
-    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.1.10</div><p class="sub">Nick's Works · iOS 15+</p></header>
+    <header><h1>RoadRunner Reborn</h1><div class="version">Version 1.1.11</div><p class="sub">Nick's Works · iOS 15+</p></header>
     <section class="card">
       <h2>About</h2>
       <p><strong>RoadRunner Reborn</strong> makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!</p>
       <p>Tested on iOS 15 - 17 rootless, <strong>should</strong> work on rootHide and iOS 18 and newer (fingers crossed)</p>
     </section>
-    <section class="card"><h2>Changelog</h2><p class="version">1.1.10</p><ul>          <li>Apps that are meant to survive are captured more reliably.</li>
+    <section class="card"><h2>Changelog</h2><p class="version">1.1.11</p><ul>          <li>Apps that are meant to survive are captured more reliably.</li>
           <li>Survivor handoff data is now stored properly in a plist instead of the temp directory.</li>
           <li>Invalid survivor records are ignored instead of being restored.</li>
           <li>SpringBoard and runningboardd coordinate so they do not overwrite each other’s changes.</li>
@@ -47,13 +47,14 @@
           <li>Removes the final MediaRemote override cleanup call to avoid launch-time notification churn.</li>
           <li>Filters incomplete Dynamic Peninsula player paths so valid MediaRemote metadata can arrive cleanly after a respring.</li>
           <li>Installs the Dynamic Peninsula compatibility filter when its image loads, instead of only during SpringBoard startup.</li>
-          <li>Requests a Dynamic Peninsula-owned now-playing refresh after RoadRunner reattaches the surviving media app.</li></ul></section>
+          <li>Requests a Dynamic Peninsula-owned now-playing refresh after RoadRunner reattaches the surviving media app.</li>
+          <li>Seeds Dynamic Peninsula with MediaRemote's validated local player path before requesting metadata.</li></ul></section>
     <section class="card"><h2>Links</h2><div class="links"><a href="https://github.com/hadobedo/RoadRunnerReborn" target="_blank" rel="noreferrer">Source on GitHub <span>↗</span></a>
 <a href="https://ko-fi.com/nicksworks" target="_blank" rel="noreferrer">Support on Ko-fi <span>↗</span></a>
 <a href="https://twitter.com/Nicks_Works" target="_blank" rel="noreferrer">X / Twitter <span>↗</span></a>
 <a href="https://instagram.com/Nicks_Works" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
 <a href="https://www.youtube.com/@NicksWorks" target="_blank" rel="noreferrer">YouTube <span>↗</span></a></div></section>
-    <section class="card"><h2>Information</h2><ul>          <li>Version: 1.1.10</li>
+    <section class="card"><h2>Information</h2><ul>          <li>Version: 1.1.11</li>
           <li>Compatibility: iOS 15+</li>
           <li>Formats: Rootless · RootHide</li>
           <li>Package ID: com.nicksworks.roadrunnerreborn</li></ul></section>
