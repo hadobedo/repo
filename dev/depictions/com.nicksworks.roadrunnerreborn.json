@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.1.1**\n\n- Apps that are meant to survive are captured more reliably.\n- Survivor handoff data is now stored properly in a plist instead of the temp directory.\n- Invalid survivor records are ignored instead of being restored.\n- SpringBoard and runningboardd coordinate so they do not overwrite each other’s changes.\n- Blacklist mode keeps its existing app list when iOS temporarily cannot provide a valid app list.\n- Missing process information no longer causes SpringBoard to crash randomly.",
+          "markdown": "**1.1.2**\n\n- Apps that are meant to survive are captured more reliably.\n- Survivor handoff data is now stored properly in a plist instead of the temp directory.\n- Invalid survivor records are ignored instead of being restored.\n- SpringBoard and runningboardd coordinate so they do not overwrite each other’s changes.\n- Blacklist mode keeps its existing app list when iOS temporarily cannot provide a valid app list.\n- Missing process information no longer causes SpringBoard to crash randomly.\n- The system now-playing session is restored after resprings, so Dynamic Peninsula and lock screen cards recover without restarting the app.",
           "useSpacing": true
         },
         {
@@ -71,7 +71,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.1"
+          "text": "1.1.2"
         },
         {
           "class": "DepictionTableTextView",
