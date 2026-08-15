@@ -97,7 +97,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "![Visits](https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn)  ![GitHub downloads](https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/latest/total?label=GitHub%20downloads)",
+          "markdown": "![Visits](https://visitor-badge.laobi.icu/badge?page_id=hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn)  ![Downloads](https://img.shields.io/github/downloads/hadobedo/RoadRunnerReborn/total?label=Downloads&color=4d9aff)",
           "useSpacing": true
         }
       ]
