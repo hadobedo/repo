@@ -7,10 +7,10 @@ Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Filename: debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64e.deb
-Size: 70372
-MD5sum: 410275130a6ece4d60c15adee7dced4d
-SHA1: 063dd77ed74bd66fb562b6056a7af07ad9dec30b
-SHA256: 7593eb4c6918e32e1bf170668f88d58d8be693494c8ed624bab961ac65f48c6d
+Size: 70428
+MD5sum: 01a5a75c59da3b30ef01bdca116f0e62
+SHA1: 56f4843de17cc7d888544ecdd3739544df273046
+SHA256: ba434195ec294c9d51972b8460bcc4f56901d423d49fc8ba17c2585c85f8eaa8
 Section: Tweaks
 Homepage: https://github.com/hadobedo/RoadRunnerReborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
