@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.1.2**\n\n- Apps that are meant to survive are captured more reliably.\n- Survivor handoff data is now stored properly in a plist instead of the temp directory.\n- Invalid survivor records are ignored instead of being restored.\n- SpringBoard and runningboardd coordinate so they do not overwrite each other’s changes.\n- Blacklist mode keeps its existing app list when iOS temporarily cannot provide a valid app list.\n- Missing process information no longer causes SpringBoard to crash randomly.\n- The system now-playing session is restored after resprings, so Dynamic Peninsula and lock screen cards recover without restarting the app.\n- Avoids sending a premature SpringBoard now-playing refresh before MediaRemote has a valid player path.\n- Removes the final MediaRemote override cleanup call to avoid launch-time notification churn.\n- Filters incomplete Dynamic Peninsula player paths so valid MediaRemote metadata can arrive cleanly after a respring.\n- Installs the Dynamic Peninsula compatibility filter when its image loads, instead of only during SpringBoard startup.\n- Requests a Dynamic Peninsula-owned now-playing refresh after RoadRunner reattaches the surviving media app.\n- Seeds Dynamic Peninsula with MediaRemote's validated local player path before requesting metadata.",
+          "markdown": "**1.1.2**\n\n- RootHide package now ACTUALLY supports arm64 devices (oops)",
           "useSpacing": true
         },
         {
