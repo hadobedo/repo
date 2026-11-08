@@ -1,0 +1,84 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#B96DFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Makes the **8BitDo Ultimate MGX** work as a normal game controller.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15 and above"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Formats",
+          "text": "Rootless · RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package ID",
+          "text": "com.nicksworks.mgxfix"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "How it works"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "iOS already pairs the MGX as a BLE HID device and matches it in the GameController database by VID/PID, but skips its mapping on a personality version check:\n\n```\nPersonality definition requires version '11.4.7'\ndid not find a compatible personality\n```\n\nThe MGX mapping ships in a downloaded GameController database asset newer than the running GameControllerFoundation, which is why iOS 18.5 added support.\n\nMGXFix patches the compatibility field and selects the Default personality **in memory** as the plists load. Nothing on disk is modified.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Notes"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Only `GameControllerConfigService` is hooked.\n- Applies on the next controller connect; no respring needed.\n- Verified on iOS 17.1.1 (iPhone 13 Pro, roothide).",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release.\n- Patches the GameController personality version gate so the MGX mapping loads.\n- Forces the Default personality (WithBackButtons expects paddles the base MGX does not report).",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
