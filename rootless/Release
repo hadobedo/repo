@@ -5,9 +5,19 @@ Codename: rootless
 Architectures: iphoneos-arm64
 Components: main
 Description: dotto++ package feed
+Date: Sun, 08 Nov 2026 19:35:16 GMT
 MD5Sum:
  2b5d1e17eee8dbdda4e326d1db11d4c5 8808 Packages
- 3b17369623a53bef51265c3027a1e991 1759 Packages.gz
+ 2e9c3c105cea1dc11593ec1224ffa46c 1750 Packages.gz
+ d18795cf0c92da61293188ae24678ccb 2102 Packages.bz2
+ 92369a9c90130bccfdca482168e6b5b4 1708 Packages.xz
+SHA1:
+ 2e38d5678c960b1b5d1be51f543a58b5c7446c9a 8808 Packages
+ 6c78872d289eff0f21aa765560104f7fff227201 1750 Packages.gz
+ e0d26d233beb570ceaf948749771c4ecdc56b63b 2102 Packages.bz2
+ 0930481a5a3a8c097b0466b59e21ba696a7a4d70 1708 Packages.xz
 SHA256:
  28cbaaaba3356d86d535ae2d50b085a51a1070817faee4d8729549248e2c82ae 8808 Packages
- a831f18dc7774ece68ac5f206222e5e3e118ac21e8704446105ae39a9c06eb9b 1759 Packages.gz
+ 2cf6bcd4bb0b3a2281f01fef627bc4e10f560640d071d3eba1655c86f9bb1820 1750 Packages.gz
+ 3b3c64bb92470c1b9b121cfef683a94f2a95e6c682842b411c6e910a10fe7d62 2102 Packages.bz2
+ 487b4f32a669c0ba5b75532abcce6663fcb12a64c2355e7b0d09f2f4d280ed3d 1708 Packages.xz

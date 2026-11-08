@@ -5,9 +5,19 @@ Codename: roothide
 Architectures: iphoneos-arm64e
 Components: main
 Description: dotto++ package feed
+Date: Sun, 08 Nov 2026 19:35:16 GMT
 MD5Sum:
  7356443169e77fda0d587d5e1f675e71 8826 Packages
- 71b1de618ae44be8cc23b7dff68318de 1758 Packages.gz
+ 086dc8e6148c36e6c8a679a278c4479a 1749 Packages.gz
+ e8dc8f7b86410f7def45c9d6994acd52 2121 Packages.bz2
+ fd98f993a2a580b4aa0096eac9bfb0fb 1712 Packages.xz
+SHA1:
+ e87b90f643b501cfa97f7fe6c9e4f69c82ac20aa 8826 Packages
+ bdca615783727a5b7d0ee1baa356a652991b2637 1749 Packages.gz
+ e9b60622a1500b7293e78050a58a648f880a27b8 2121 Packages.bz2
+ 84999c3b605d906b8ed8a444aa45bb6e061bc7cb 1712 Packages.xz
 SHA256:
  470d08499d480508287d259d8f42f54ae1734e4cb26db0113fe35c765c81cd6e 8826 Packages
- 0ec7d2942b90fbecf5a9f8b17180f879e7c74b548b48f9f3d8696b24608c66ce 1758 Packages.gz
+ b687be229aace7663bc410302e273d2233fdcce2165b89f1030c8fa963ee7c31 1749 Packages.gz
+ 672b78703776deed892d8ac2f2f7d9bfd9098e1f56e005b92709344f5382d29c 2121 Packages.bz2
+ 2866d790d671ab7562c74e79aed9589367b76f7a9b56d94cf1c031473fc10a10 1712 Packages.xz
