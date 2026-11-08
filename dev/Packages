@@ -1,86 +1,167 @@
 Package: com.nicksworks.dottoplusplus
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 1056
-Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
-Conflicts: me.conorthedev.dotto+
-Replaces: me.conorthedev.dotto+
-Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64.deb
-Size: 146472
-MD5sum: e27a1b14b7676e2c705f18529c085cfd
-SHA1: 509912f5ae5357484992fe58af995d00f71c99c8
-SHA256: c76aaed90a71d4e46e46d4a44fda9739d620742d55269520313bf5b1f3c322ad
-Section: Tweaks
-Homepage: https://github.com/hadobedo/dotto-
-Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
-Author: Nick's Works (Hadobedo)
-Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
-Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
 Name: dotto++
-Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/dotto-
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Replaces: me.conorthedev.dotto+
+Conflicts: me.conorthedev.dotto+
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Installed-Size: 764
+Filename: debs/com.nicksworks.dottoplusplus_1.1.4_iphoneos-arm64.deb
+Size: 120456
+MD5sum: d8fb4a9571e978a0eb85ac9792e94b8c
+SHA1: f5f563b2a8b51c0480a00ade4a21529212970a01
+SHA256: 503fe67f7efda58b1ffaa5d38f66cfd27d91138b1227597270324719806742f6
 
 Package: com.nicksworks.dottoplusplus
-Version: 1.1.1
-Architecture: iphoneos-arm64e
-Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 1056
-Depends: firmware (>= 15.0), firmware (<< 18.0), ellekit, preferenceloader
-Conflicts: me.conorthedev.dotto+
-Replaces: me.conorthedev.dotto+
-Filename: debs/com.nicksworks.dottoplusplus_1.1.1_iphoneos-arm64e.deb
-Size: 144036
-MD5sum: 6bbf3f001ac66d4ededd62ea32b4aefc
-SHA1: 6f6f7ba3c929a1a0e4f54c297de78f9044180f95
-SHA256: eadd50b17fdb5858915979a2172fb4706b14c54ef3d4997fea8d1453bb34434c
-Section: Tweaks
-Homepage: https://github.com/hadobedo/dotto-
-Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
-Author: Nick's Works (Hadobedo)
-Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
-Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
 Name: dotto++
-Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
-
-Package: com.nicksworks.roadrunnerreborn
-Version: 1.1.2
-Architecture: iphoneos-arm64e
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
 Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 804
-Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
-Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
-Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
-Filename: debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64e.deb
-Size: 75050
-MD5sum: 80aa6dcbfdcce24c3476fe164fb9ee3e
-SHA1: 60fcfe4a942ae7f45e20876d4423d7cd7dd0448d
-SHA256: 56c4b132bf2672e4116d049e7616caf6aac647bb0fb7e7a1b2f457d9a5892690
-Section: Tweaks
-Homepage: https://github.com/hadobedo/RoadRunnerReborn
-Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
 Author: Nick's Works (Hadobedo)
-Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.roadrunnerreborn.html
-Name: RoadRunner Reborn
-Sileodepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.roadrunnerreborn.json
+Homepage: https://github.com/hadobedo/dotto-
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Replaces: me.conorthedev.dotto+
+Conflicts: me.conorthedev.dotto+
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 764
+Filename: debs/com.nicksworks.dottoplusplus_1.1.4_iphoneos-arm64e.deb
+Size: 118466
+MD5sum: b42bb741a16e4296c83206e503698823
+SHA1: c2a028b2e460a767392d348076e18856d0332e43
+SHA256: bbe16e55cc41c3f860b830dfe9d0aa289aead54ab1d42787d4265856bc2131c3
+
+Package: com.nicksworks.mgxfix
+Name: MGXFix
+Description: Makes the 8BitDo Ultimate MGX work as a normal game controller. iOS already publishes the pad as a BLE HID device and matches it in the GameController database, but skips its mapping on a personality version check; this patches that in memory.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/mgxfix
+Icon: https://hadobedo.github.io/repo/assets/mgxfix.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.html
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+Filename: debs/com.nicksworks.mgxfix_1.0.0_iphoneos-arm64.deb
+Size: 6862
+MD5sum: 326336f320e1cda4936359a0aca69150
+SHA1: 3768eff9418b83c10d3c34e2a9575a71344b3d48
+SHA256: 51766769e4461ba1a73051e9bdc475a1c1da157f9a4ebe9f6b9bd1cce32aea95
+
+Package: com.nicksworks.mgxfix
+Name: MGXFix
+Description: Makes the 8BitDo Ultimate MGX work as a normal game controller. iOS already publishes the pad as a BLE HID device and matches it in the GameController database, but skips its mapping on a personality version check; this patches that in memory.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/mgxfix
+Icon: https://hadobedo.github.io/repo/assets/mgxfix.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.html
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 168
+Filename: debs/com.nicksworks.mgxfix_1.0.0_iphoneos-arm64e.deb
+Size: 6810
+MD5sum: aa410757873f7909a30d5c1bf85a79c2
+SHA1: 992302f6c5383d6c1a33c7ea4b2fd46b64efc1b6
+SHA256: bf3dfc76bea3309d22fbc49cc789c60e96245d90c0fc5a4dbf8a8ae87c9868fc
 
 Package: com.nicksworks.roadrunnerreborn
-Version: 1.1.2
-Architecture: iphoneos-arm64
+Name: RoadRunner Reborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
 Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 804
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Section: Tweaks
 Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Installed-Size: 804
 Filename: debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64.deb
 Size: 75000
 MD5sum: a812d0dea773fb56e7ec65e18b7ba06e
 SHA1: e583cc956ce2d11f1cce2c6b94cc389897460838
 SHA256: b191cbc52c6f2c3abe5452fc4eacc4a75d6733ba348a676aa154a081d260bae7
-Section: Tweaks
-Homepage: https://github.com/hadobedo/RoadRunnerReborn
-Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
-Author: Nick's Works (Hadobedo)
-Depiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.roadrunnerreborn.html
-Name: RoadRunner Reborn
-Sileodepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.roadrunnerreborn.json
 
+Package: com.nicksworks.roadrunnerreborn
+Name: RoadRunner Reborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
+Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Installed-Size: 804
+Filename: debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64e.deb
+Size: 75050
+MD5sum: 80aa6dcbfdcce24c3476fe164fb9ee3e
+SHA1: 60fcfe4a942ae7f45e20876d4423d7cd7dd0448d
+SHA256: 56c4b132bf2672e4116d049e7616caf6aac647bb0fb7e7a1b2f457d9a5892690
+
+Package: com.nicksworks.roadrunnerreborn
+Name: RoadRunner Reborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
+Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Installed-Size: 804
+Filename: roothide/debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64e.deb
+Size: 75050
+MD5sum: 80aa6dcbfdcce24c3476fe164fb9ee3e
+SHA1: 60fcfe4a942ae7f45e20876d4423d7cd7dd0448d
+SHA256: 56c4b132bf2672e4116d049e7616caf6aac647bb0fb7e7a1b2f457d9a5892690
+
+Package: com.nicksworks.roadrunnerreborn
+Name: RoadRunner Reborn
+Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/RoadRunnerReborn
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
+Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.roadrunnerreborn.html
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Installed-Size: 804
+Filename: rootless/debs/com.nicksworks.roadrunnerreborn_1.1.2_iphoneos-arm64.deb
+Size: 75000
+MD5sum: a812d0dea773fb56e7ec65e18b7ba06e
+SHA1: e583cc956ce2d11f1cce2c6b94cc389897460838
+SHA256: b191cbc52c6f2c3abe5452fc4eacc4a75d6733ba348a676aa154a081d260bae7
