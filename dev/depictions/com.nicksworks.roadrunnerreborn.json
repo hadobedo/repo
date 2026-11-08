@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nTested on iOS 15 - 17 rootless, **should** work on rootHide and iOS 18 and newer (fingers crossed)",
+          "markdown": "**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nSupports iOS 15 and above, on rootless and RootHide jailbreaks.",
           "useSpacing": true
         },
         {
@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.1.2**\n\n- RootHide package now ACTUALLY supports arm64 devices (oops)",
+          "markdown": "**1.2.0**\n\n- Adds an optional **Allow Simultaneous Audio** setting with an independent per-app whitelist or blacklist so eligible third-party media apps can remain audible together.\n- Preserves native Lock Screen and Control Center Now Playing ownership for long-form media such as YouTube and Spotify.\n- Replaces the standalone ProBrainRot package; the feature is now built into RoadRunner Reborn and disabled by default.",
           "useSpacing": true
         },
         {
@@ -71,7 +71,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.2"
+          "text": "1.2.0"
         },
         {
           "class": "DepictionTableTextView",

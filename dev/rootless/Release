@@ -5,11 +5,19 @@ Codename: rootless
 Architectures: iphoneos-arm64
 Components: main
 Description: Nicks Works jailbreak tweaks
+Date: Sun, 08 Nov 2026 20:11:39 +0000
 MD5Sum:
- e80317b6844928d1c30fd698d8787ebf 1199 Packages
- beb4c5754461d7bc4f2588e5dbd56817 677 Packages.gz
- 3c7e4bb41b56bd91f079b2d9ea9a6b46 760 Packages.xz
+ 7694c193dbb996b0770cfb9518fd7e2a 2483 Packages
+ 745b2e528d33258007f34cf1ec3104ae 873 Packages.gz
+ 22dc3e737ae6b64ca768a55bf2596b4e 1066 Packages.bz2
+ c88a78eca188f1ec36cd1325a30eaf7b 944 Packages.xz
+SHA1:
+ 2a323e1dd4590466768910abe519da8909027d82 2483 Packages
+ 4f9206f6c2f49938dbe4e83b7283f0acd0414de4 873 Packages.gz
+ f5c6b95eafdcab0f08ad00b59fb98a95af230547 1066 Packages.bz2
+ bcf72a96534a894080d46a0529ee78370f14f5f4 944 Packages.xz
 SHA256:
- 2bc3715eeb55e323b62bb2b543bb6aa7e367d81517ea4aed7b9ef76fdd5b46a3 1199 Packages
- 45922a5eb4ae1291ad72723776f1ccebb8a1a32eea86c23baa079e6ec2b83139 677 Packages.gz
- 32a7a310c848cfc66b39b9e9a34ee53e9b9444210369f99e19c7305b83ed7657 760 Packages.xz
+ ac3e4ae02c3db0ad67a6415b380b4e9a04b17a9ef785ef6d5497431be06e84c0 2483 Packages
+ 07116b4d608b6c657ecb9af5c992649aaac5254c2b96aef9a1b8c20b2bf9c153 873 Packages.gz
+ 99e2a6a33c30d1de1fcd10b5fec8ee166b8bfd7f919dfc271a872d16faf276e9 1066 Packages.bz2
+ 41a334868172fbb56c632e2616f84215d8f7b69ae622a1cd5c6cae0c22ca4925 944 Packages.xz

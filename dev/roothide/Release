@@ -5,11 +5,19 @@ Codename: roothide
 Architectures: iphoneos-arm64e
 Components: main
 Description: Nicks Works jailbreak tweaks
+Date: Sun, 08 Nov 2026 20:11:39 +0000
 MD5Sum:
- 58728d1f79fea5c1dd04fc9648bcf4ed 1201 Packages
- 224c3176c89cbbdc76a72d2234cc87cd 679 Packages.gz
- 6f4ae416792e60daa6b645d7d143af8b 756 Packages.xz
+ aee925c2810c4eb7d10d61d1e60651ac 2487 Packages
+ 0ed22f311b940a51c0c79431a6da24e2 870 Packages.gz
+ 0ad2c0c0c0681456794ad993b255028e 1052 Packages.bz2
+ 5ce160162154e0cc5586470f4cbcef41 936 Packages.xz
+SHA1:
+ 93eec7b9468cfac72980dd4e8d96701405acaa1c 2487 Packages
+ 9435b43ca1f5d62264977a845a43da042c890d54 870 Packages.gz
+ d382880772677907b95968a27f0869d77ebf43ef 1052 Packages.bz2
+ a9a600ff3ae8c83b68c15b94efb1fa11a7994b27 936 Packages.xz
 SHA256:
- bf361af6b52b08b1308eb8c43c9e60715e5c2de6ec53ad42b481cc65c197a736 1201 Packages
- 2edebc7649942cd3d3c10d883c0de5bc163537ae7b069d68c75ca59ec4e6da78 679 Packages.gz
- 6c04fb49ffbbbdb2b3f9ac567b159901bdce2798eabd6861e0467b3f3a880a23 756 Packages.xz
+ 757ebc1c37a166857ebe39f0c8d2e4bbe08ec8c0795ffa31f77f8bf485939c66 2487 Packages
+ 5901d223d213bed3ebab7a984772f30e65e62cbe48ec71e59320da2beb7f5eb2 870 Packages.gz
+ f4186d2c22ab16465401ea0609027073d038a3b26e1e11b22e69bd193fb124b8 1052 Packages.bz2
+ a29758e54afd7c05fb4e7d7fd042d22a20c49154f5d946e439f2d25c8ae2ede9 936 Packages.xz
