@@ -22,7 +22,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.3"
+          "text": "1.1.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -85,7 +85,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Removed the iOS 18 firmware cap; dotto++ now installs on iOS 15 and above.\n- Badge colour results are cached by icon artwork identity instead of being\n- Folder colours are keyed by the backing `CGImage`, keeping cached colours\n- Replaced the `@available(iOS 17.0, *)` check with a runtime",
+          "markdown": "- iOS 18 support: `SBIconBadgeView`'s `_backgroundView` is a plain/material",
           "useSpacing": true
         }
       ]
@@ -94,6 +94,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- iOS 18 support: `SBIconBadgeView`'s `_backgroundView` is a plain/material",
+          "useSpacing": true
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.1.3",

@@ -78,6 +78,28 @@ Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
 Name: dotto++
 Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
 
+Package: com.nicksworks.dottoplusplus
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Installed-Size: 864
+Depends: firmware (>= 15.0), ellekit, preferenceloader
+Conflicts: me.conorthedev.dotto+
+Replaces: me.conorthedev.dotto+
+Filename: debs/com.nicksworks.dottoplusplus_1.1.4_iphoneos-arm64e.deb
+Size: 114634
+MD5sum: f1e747b0877d5a1e69a17f32718949c5
+SHA1: 10141c0af9e15a1dea90f5a220633f6da335de04
+SHA256: 402a315fc7da0959a71dfed464722f91ad01169154fcb2aa9e0bfee3ce1d4dd9
+Section: Tweaks
+Homepage: https://github.com/hadobedo/dotto-
+Description: Rootless adaptation of dotto+ originally written by Mirac & ConorTheDev
+Author: Nick's Works (Hadobedo)
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.html
+Icon: https://hadobedo.github.io/repo/assets/dottoplusplus.png
+Name: dotto++
+Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.dottoplusplus.json
+
 Package: com.nicksworks.roadrunnerreborn
 Version: 1.0.0
 Architecture: iphoneos-arm64e
