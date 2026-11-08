@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Minimalistic notification dots, rebuilt for iOS 15–17",
+          "markdown": "Minimalistic notification dots, rebuilt for iOS 15 and above",
           "useSpacing": true
         },
         {
@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iOS 15–17"
+          "text": "iOS 15 and above"
         },
         {
           "class": "DepictionTableTextView",
