@@ -4,12 +4,10 @@ Suite: stable
 Codename: roothide
 Architectures: iphoneos-arm64e
 Components: main
-Description: Nicks Works jailbreak tweaks
+Description: dotto++ package feed
 MD5Sum:
- e2ea7dcbd82cf567d9bd82a308f4c49d 6926 Packages
- 7024a9638f99d7aaec7cf42ade64d0b2 1537 Packages.gz
- de8021fabb7a26956907de41955bf2a3 1524 Packages.xz
+ f66cd39e00c910b9b063f898b3a3f978 7876 Packages
+ f63bfc909b0748900d6a665f598c18b9 1648 Packages.gz
 SHA256:
- 02d291b9bd866de518a2e798eea3e0bcc5f1308f96328027d8ce8759931734a9 6926 Packages
- 5d5b973296b29bc82732f51526e58c1568d7a0c41adbb024797963a8f011d595 1537 Packages.gz
- efbcf8a8ff3531158d5f5cd319f41ec6931148a859a6035f764e479e0ffdf986 1524 Packages.xz
+ 8491ceb235420561b9243cf217a31d377c961e159f171b2abb70d6ab28dcc572 7876 Packages
+ 5fcfbdbecc2cb3f8746d5a6b27f8c56ab0cd237888aad3ff93a4a28c2a08ca79 1648 Packages.gz

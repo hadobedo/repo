@@ -4,12 +4,10 @@ Suite: stable
 Codename: rootless
 Architectures: iphoneos-arm64
 Components: main
-Description: Nicks Works jailbreak tweaks
+Description: dotto++ package feed
 MD5Sum:
- 0413c479834ccc8089857e8ea0b69216 6912 Packages
- 12ec50ab61683405c12500ce0fd07985 1539 Packages.gz
- 63483ad2d2f6c952f37c47fe3d307b9b 1524 Packages.xz
+ 8f92642f659034fa7d15a7489ab7d420 7860 Packages
+ c880b28a4814dcc37691c9bb79c9050b 1646 Packages.gz
 SHA256:
- 505ce1ad7317322f392f784d30eba04baea0ff28b1c4b0c6267ac15ccbdb02be 6912 Packages
- 029e0efe3c698975f5ccfa3ced34b11a3b06ef1b5271e476e8d0bc60fca3bfdf 1539 Packages.gz
- 4400b3abd4185ebdcd984234575070ff257f526219708c7757c5abd477c5097d 1524 Packages.xz
+ fdea2a3a5211a150f75e84dba447f87641bf592c999167e95fb798431a3fde44 7860 Packages
+ 9baa3f6947f3d926411ccc1b80de443b2860f50ced5e4f540958fea0811ed0a1 1646 Packages.gz
