@@ -83,18 +83,18 @@ Name: MGXFix
 Sileodepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
 
 Package: com.nicksworks.roadrunnerreborn
-Version: 1.2.0
+Version: 1.2.1
 Architecture: iphoneos-arm64e
 Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 1212
+Installed-Size: 1244
 Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner, com.nicksworks.probrainrot
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner, com.nicksworks.probrainrot
-Filename: debs/com.nicksworks.roadrunnerreborn_1.2.0_iphoneos-arm64e.deb
-Size: 93292
-MD5sum: 309090940999b656e11337636e7bf734
-SHA1: 0ccffde66cf6e0657c3b731ba36718491013f974
-SHA256: ce00884fb176e852045f73e9f5f24661b8afbe4f33341fc3686db22109d14d1b
+Filename: debs/com.nicksworks.roadrunnerreborn_1.2.1_iphoneos-arm64e.deb
+Size: 96136
+MD5sum: 2c38e8c32b778e7d8dd3be0bd35cf6f0
+SHA1: 376cfb88c2d446993758724f4f4158debb3da590
+SHA256: b0cc8001fce90d8d6decd33e53c7465bd7d69cfeafa1308c03cd28b3389b1507
 Section: Tweaks
 Homepage: https://github.com/hadobedo/RoadRunnerReborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings, with optional simultaneous multi-app audio playback. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
@@ -104,18 +104,18 @@ Name: RoadRunner Reborn
 Sileodepiction: https://hadobedo.github.io/repo/dev/depictions/com.nicksworks.roadrunnerreborn.json
 
 Package: com.nicksworks.roadrunnerreborn
-Version: 1.2.0
+Version: 1.2.1
 Architecture: iphoneos-arm64
 Maintainer: Nick's Works <hadobedo@gmail.com>
-Installed-Size: 1228
+Installed-Size: 1248
 Depends: firmware (>= 15.0), ellekit, preferenceloader, com.opa334.altlist
 Conflicts: com.nick.keepthepartygoing, se.nosskirneh.roadrunner, com.nicksworks.probrainrot
 Replaces: com.nick.keepthepartygoing, se.nosskirneh.roadrunner, com.nicksworks.probrainrot
-Filename: debs/com.nicksworks.roadrunnerreborn_1.2.0_iphoneos-arm64.deb
-Size: 92686
-MD5sum: bf1adc87f34f1a68bb49492712d5406a
-SHA1: e9e96fded714d606b1ac42cda94eb85b1e33550f
-SHA256: 7f78e602d8e6a84bdd5553bcdbdb977e5c9dbf86b3dea24dcb5047a7b675143e
+Filename: debs/com.nicksworks.roadrunnerreborn_1.2.1_iphoneos-arm64.deb
+Size: 95144
+MD5sum: 20a1c9b96143b774bdb522d66aba64ec
+SHA1: f8e9edf274c24cf76c01d4b105feba30ce114a30
+SHA256: 9c334f852d075d5a264b4790236e8ac7ee4f7fbae537738c7954d840ad0046e8
 Section: Tweaks
 Homepage: https://github.com/hadobedo/RoadRunnerReborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings, with optional simultaneous multi-app audio playback. A userspace reboot is required after install, update, enable, disable, or removal; Safe Mode alone does not unload the daemon-side hook.
