@@ -1,23 +1,23 @@
 Origin: Nicks Works
 Label: Nicks Works
 Suite: stable
-Codename: dev
+Codename: stable
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Nicks Works package feed
-Date: Mon, 09 Nov 2026 00:47:29 GMT
+Description: Nicks Works jailbreak tweaks
+Date: Mon, 09 Nov 2026 01:02:17 +0000
 MD5Sum:
- 22e8c0b1a0bccb5730817cf66a4cdc6a 6437 Packages
- 16bf1ac454510d3adcb7c3572a68a567 1618 Packages.gz
- c46eb07ab9672d02480126dbb1318bfa 1934 Packages.bz2
- f0f8675147c59d74ce1ea71b638a9e33 1628 Packages.xz
+ 58b3256eb922d69f37c5ce05a5ce3785 6430 Packages
+ fdff2887392ab24a234578507a990f18 1630 Packages.gz
+ 7659c3df806298cdb172922583cc8eec 1953 Packages.bz2
+ 96024ca50e4cb7191a4d72a80ee4c05d 1648 Packages.xz
 SHA1:
- 9229d12452d96b2d211047d3ae12cd691953bde3 6437 Packages
- 095196e2c05c24d11b30871d26868ddefa66170f 1618 Packages.gz
- 709a36c0cf98b16e564f34b83240ddfbd3b587de 1934 Packages.bz2
- d81e3862e7f795ec29191719495b645625a66237 1628 Packages.xz
+ 91df67adcffec41683c3a444df5de8ecd5c1f79c 6430 Packages
+ 015602982f1bbd0e14cea595b8c3aa52b0dae6ad 1630 Packages.gz
+ 6d75b6da75812baecc99ae3f7f6ee205b56f34ed 1953 Packages.bz2
+ c6c1e44ca8ead66155c373ed87273f2a39b8d80f 1648 Packages.xz
 SHA256:
- 1aaae17e35dc24e36332e92d6a831be2fecc5957af1b61dbbdb5b7b37e0d17b2 6437 Packages
- c23b8f9fc78205749afc7c4b5751daf89a30d6b035168a8817c2e44907d8d2fc 1618 Packages.gz
- cd643f07135bc9b8704d78321614a26a560c49140db1bb9a99fba413d7f7ddd9 1934 Packages.bz2
- a34f0f671b5571bbdbc28bebea93572202a06a3d250ab08e0a587090aa1b96a7 1628 Packages.xz
+ d20fc2c209cbfb3cb4dda1cf32390da175a48168ffb82638913bb2ffa2292d27 6430 Packages
+ b7df36f6d3e91ea08f53a9bed6a76dc9d5f35cddff4624d113129a8f35dff10d 1630 Packages.gz
+ 496ccf5b4da181b5a5522a688ba532a0ea0499b837ff52912344573eba6d86ee 1953 Packages.bz2
+ 85807bd75ceed02d43bfea4bd1255605fbde4b6168569356bcd5c528a2a39b1c 1648 Packages.xz
