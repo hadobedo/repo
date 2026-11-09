@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nTested on iOS 15 - 17 rootless, **should** work on rootHide and iOS 18 and newer (fingers crossed)",
+          "markdown": "**RoadRunner Reborn** makes your Now Playing app (and optionally other selected apps) stay alive through sbreload and resprings, keeping your music and other apps uninterrupted!\n\nSupports iOS 15 and above, on rootless and RootHide jailbreaks.",
           "useSpacing": true
         },
         {
@@ -21,7 +21,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.1.2**\n\n- RootHide package now ACTUALLY supports arm64 devices (oops)",
+          "markdown": "**1.2.1**\n\n- Fixes preferences being silently discarded. Settings were written two ways to the same plist: the main toggles with `-writeToFile:` and the new simultaneous-audio settings through `CFPreferences`. cfprefsd keeps its own cache of the domain, so the next audio write flushed that cache over the file and wiped `enabled`, `preserveNowPlaying`, `isWhitelist` and the app list. Both features then behaved as \"off\".\n- All preference reads and writes now go through `CFPreferences`, so every process (SpringBoard, runningboardd, mediaserverd, audiomxd, apps) sees the same values.\n- If you upgraded to 1.2.0, your toggles were reset; set them once after installing 1.2.1.",
           "useSpacing": true
         },
         {
@@ -71,7 +71,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.2"
+          "text": "1.2.1"
         },
         {
           "class": "DepictionTableTextView",
