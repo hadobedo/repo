@@ -71,6 +71,15 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- The MGX mapping is now bundled with the package instead of relying on a downloaded GameController database asset. On devices whose asset predates this controller the tweak previously found nothing to patch and did nothing.\n- Adds the device entry itself when the installed database has no `com.8BitDo.UltimateMGX.Bluetooth`.\n- Logs explicitly when the iOS release predates the personality system, instead of failing silently."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0.0"
         },
         {

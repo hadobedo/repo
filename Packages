@@ -242,6 +242,46 @@ MD5sum: aa410757873f7909a30d5c1bf85a79c2
 SHA1: 992302f6c5383d6c1a33c7ea4b2fd46b64efc1b6
 SHA256: bf3dfc76bea3309d22fbc49cc789c60e96245d90c0fc5a4dbf8a8ae87c9868fc
 
+Package: com.nicksworks.mgxfix
+Name: MGXFix
+Description: Makes the 8BitDo Ultimate MGX work as a normal game controller. iOS already publishes the pad as a BLE HID device and matches it in the GameController database, but skips its mapping on a personality version check; this patches that in memory.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/mgxfix
+Icon: https://hadobedo.github.io/repo/assets/mgxfix.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.html
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 260
+Filename: debs/com.nicksworks.mgxfix_1.0.1_iphoneos-arm64.deb
+Size: 12942
+MD5sum: d532f6e9a62ae7460e7582375d3b0335
+SHA1: 46c31aba4f1b33f637393975d0ea673e69a102ca
+SHA256: 40bc3b96be876fec33359ce33a2e294a40d2747f0428329499c451eea13a15a8
+
+Package: com.nicksworks.mgxfix
+Name: MGXFix
+Description: Makes the 8BitDo Ultimate MGX work as a normal game controller. iOS already publishes the pad as a BLE HID device and matches it in the GameController database, but skips its mapping on a personality version check; this patches that in memory.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/mgxfix
+Icon: https://hadobedo.github.io/repo/assets/mgxfix.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.html
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 260
+Filename: debs/com.nicksworks.mgxfix_1.0.1_iphoneos-arm64e.deb
+Size: 12926
+MD5sum: d562bf813cae74c704d8be1bee3d0d4d
+SHA1: c3cff136c13b1346a1bdb660164d5647ff859c5d
+SHA256: 88aab2db115b784af90bfcca045b99d2a04755fba6ad26d244002a572ba86486
+
 Package: com.nicksworks.roadrunnerreborn
 Name: RoadRunner Reborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks.

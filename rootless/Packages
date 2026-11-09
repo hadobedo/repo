@@ -120,6 +120,26 @@ MD5sum: 326336f320e1cda4936359a0aca69150
 SHA1: 3768eff9418b83c10d3c34e2a9575a71344b3d48
 SHA256: 51766769e4461ba1a73051e9bdc475a1c1da157f9a4ebe9f6b9bd1cce32aea95
 
+Package: com.nicksworks.mgxfix
+Name: MGXFix
+Description: Makes the 8BitDo Ultimate MGX work as a normal game controller. iOS already publishes the pad as a BLE HID device and matches it in the GameController database, but skips its mapping on a personality version check; this patches that in memory.
+Maintainer: Nick's Works <hadobedo@gmail.com>
+Author: Nick's Works (Hadobedo)
+Homepage: https://github.com/hadobedo/mgxfix
+Icon: https://hadobedo.github.io/repo/assets/mgxfix.png
+SileoDepiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.json
+Depiction: https://hadobedo.github.io/repo/depictions/com.nicksworks.mgxfix.html
+Section: Tweaks
+Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 260
+Filename: rootless/debs/com.nicksworks.mgxfix_1.0.1_iphoneos-arm64.deb
+Size: 12942
+MD5sum: d532f6e9a62ae7460e7582375d3b0335
+SHA1: 46c31aba4f1b33f637393975d0ea673e69a102ca
+SHA256: 40bc3b96be876fec33359ce33a2e294a40d2747f0428329499c451eea13a15a8
+
 Package: com.nicksworks.roadrunnerreborn
 Name: RoadRunner Reborn
 Description: RoadRunner Reborn preserves Now Playing media and selected applications through SpringBoard resprings on modern iOS jailbreaks.
